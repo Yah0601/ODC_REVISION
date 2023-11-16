@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: blue;
+    text-overflow: clip;
+    text-decoration: solid;
+}
+
+h2{
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+    color: aqua;
+}
