@@ -1,0 +1,74 @@
+/*@font-face{
+	font-family: "police";
+	src:url(./img/M.TTF);
+
+}*/
+body{
+	background: url(./img/plage.jpg) no-repeat center/cover ;
+
+	height: 100vh;
+
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	color: #c1cbff;
+	font-size: 2rem;
+	text-shadow: 4px 1px 2px black;
+	/*text-decoration: underline;*/
+	/*font-family: "police";*/
+	text-decoration-color: blue;
+	font-family: verdana;
+	
+
+}
+
+
+form{
+	
+	text-align: center;
+	
+}
+button.envoyer{
+	color: white;
+	
+	
+}
+
+main{
+	background: #ffffff7a;
+	margin-top: 100px;
+	min-height: 9vh;
+	margin-right: 50px;
+	padding-top: 30px;
+	margin-left: 50px;
+
+}
+div.classA{
+	font-size: 20px;
+}
+div.classB{
+	font-size: 20px;
+	margin-top: 20px
+}
+div.classC{
+	font-size: 20px;
+	margin-top: 20px
+}
+div.classD{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left:450px;
+}
+
+div.sous_titre{
+	text-align: right;
+	font-family: verdana;
+	font-size: 10px;
+	margin-top: 200px;
+
+}
+img.logo{
+	border-radius: 50px;
+}

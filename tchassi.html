@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="tchassi.css">
+    <title> Leurs Site Web </title>
+    <script type="text/javascript">
+        function validateform() {
+            var nom = document.forms["myForm"]["nom"].value
+            var prenom = document.forms["myForm"]["prenom"].value
+            var email = document.forms["myForm"]["email"].value
+
+            if( nom == ""){
+                alert("veillez saisir votre nom s'il vous plait");
+                return false;
+            }
+
+            if( prenom == ""){
+                alert(" s'il vous plait ,veillez saisir votre prenom ");
+                return false;
+            }
+
+            if( email == ""){
+                alert("veillez saisir votre email s'il vous plait");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>identifiez-vous</h1>
+    </header>
+    <form action="C:/Users/USER/ODC_REVISION/odc.html" method="post" onsubmit="return validateform()" name="myForm">
+
+        <main>
+            <div class="classA">
+                
+            <label for="nom"></label>
+            <input type="text" name="nom" maxlength="20" id="nom" placeholder="nom">    
+
+            </div>
+            <div class="classB">
+                <label for="prenom"></label>
+
+                <input type="text" name="prenom" id="prenom" maxlength="20" placeholder="prenom">
+            </div>
+            <div class="classC">
+                <label for="email"></label>
+
+                <input type="text" name="email" id="email" maxlength="30" placeholder="email">
+            </div>
+            <div class="classD">
+                <label for="envoyer"></label>
+
+                <input type="submit" value="envoyer">
+            </div>
+        </main>
+        
+    </form>
+
+    <div class="sous_titre"> copy right by tchassi nego <img class="logo" src="./img/ciel.jpg" width="20px" height="20px"></div>
+
+</body>
+</html>
