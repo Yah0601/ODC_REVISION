@@ -1,0 +1,17 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background:wheat;
+}
+h1{
+	font-family: verdana; 
+	text-align: center; 
+	margin-top: 50px;
+	text-shadow:1px 0px 2px white; 
+}
+p{
+	text-align: center;
+}
