@@ -1,4 +1,28 @@
-h1{
-    color: red;
-    background-color: blue;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.command-container {
+    background-color: #968504;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+code {
+    font-family: Consolas, monospace;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: block;
+    margin: 10px 0;
 }
